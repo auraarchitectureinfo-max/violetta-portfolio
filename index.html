@@ -242,6 +242,14 @@ footer{background:var(--obsidian);padding:28px 64px;display:flex;justify-content
 /* MOBILE */
 /* ── MOBILE ── */
 @media(max-width:768px){
+  section[id="about"] div[style*="grid-template-columns:1fr 1fr"]{
+    grid-template-columns:1fr !important;
+    gap:32px !important;
+  }
+  section[id="about"]{padding:72px 24px !important;}
+  section[id="about"] h2{font-size:36px !important;}
+  section[id="about"] > div{max-width:100% !important;}
+
   /* Hide custom cursor on touch */
   .cursor,.cursor-ring{display:none;}
   body{cursor:auto;}
